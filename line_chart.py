@@ -1,16 +1,5 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[1]:
-
-
 import matplotlib.pyplot as plt
 from matplotlib import style
-
-
-# In[16]:
-
-
 days = [1,2,3,4,5,6,7]
 temp1 = [30,32,35,34,36,33,38]
 temp2 = [32,36,35,34,31,33,35]
@@ -27,8 +16,6 @@ plt.plot(days,temp3,"bo-",label = "Patna Temp")
 plt.legend(loc = 4)
 plt.show()
 
-
-# In[ ]:
 
 
 
